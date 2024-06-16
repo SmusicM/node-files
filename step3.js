@@ -41,7 +41,7 @@ function isurl(s){
     
  //first reads file at (urlinput) (bad naming i know i use this input for url and file) arg index[2] ,
  //takes that content read into writefile along with new file name arg(argv[3])in command line and makes that the contents of that new file.
- //can be called in command line like  **node step3.js one.txt new10.txt --out** one.txt is file being read,
+ //can be called in command line like  **node step3.js one.txt new09.txt --out** one.txt is file being read,
  // new10.txt is the file being created while one.txt contents is added to the new10.txt file
         function catWrite(txtfile){
            // TODO should make it be able to call cat2 for reading
